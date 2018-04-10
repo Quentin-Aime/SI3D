@@ -2,37 +2,4 @@
   background-image: url('../img/large.png');
   height: 100%;
   background-size: cover;
-  &-title {
-    margin-left: 36px;
-    margin-top: 72px;
-    color: #052464;
-    font-size: 40px;
-  }
-  &-list {
-    list-style: none;
-    display: inline-flex;
-    font-size: 14px;
-    font-family: futura;
-    padding-left: 26px;
-    margin-top: 96px;
-  }
-  &-img {
-    position: absolute;
-  }
-  &-link {
-    text-decoration: none;
-  }
-  &-listItem:hover {
-    transition: all ease auto 0.3s;
-    transition-delay: all ease auto 0.3s;
-    transition-duration: 0.3s;
-    color: #80D9D5;
-  }
-  &-listItem {
-    color: #052464;
-    padding-left: 26px;
-  }
-  &-block {
-    display: inline-flex;
-  }
 }
