@@ -7,7 +7,7 @@
     "start": "parcel src/index.html",
     "build": "parcel src/index.js"
   },
-  "author": "Reda O.",
+  "author": "Nicolas",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^8.2.0",
