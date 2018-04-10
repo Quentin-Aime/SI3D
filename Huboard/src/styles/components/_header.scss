@@ -13,7 +13,7 @@
   &-logoImg{
     width:200px;
     height:40px;
-    margin: 3.6rem 0 3.6rem 0 ;
+    margin: 2.5rem 4rem 7rem 0 ;
   }
   &-ul{
     font-family: Didot;
@@ -22,7 +22,7 @@
     z-index: 100;
   }
   &-navItem{
-    margin: 5.2rem 1.5rem;
+    margin: 4.2rem 1.5rem;
     font-size: 14px;
   }
 
@@ -43,18 +43,27 @@
     background-size: cover;
     @include for-size('tablet-portrait-up'){
       width: 65vw;
-      height:100vh;
+      height:102vh;
       background-size: cover;
     }
   }
   &-rightImg {
-    height: 50vh;
+    height: 51vh;
   }
   &-titleSection{
     color: white;
     width: 175px;
     font-size: 28px;
     position: absolute;
-    margin: 25px 0 0 20px;
+    margin: 30px 0 0 28px;
+  }
+  &-descriptionSection{
+    position: absolute;
+    font-family: roboto;
+    font-weight: lighter;
+    width: 400px;
+    color: white;
+    font-size: 14px;
+    margin: 150px 0 0 28px;
   }
 }
