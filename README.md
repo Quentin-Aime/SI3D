@@ -13,5 +13,3 @@ Disposition d'un configurateur de longboard en 3D.
 * Nicolas Stenger(https://github.com/NicolasStn)
 * Quentin Aimé(https://github.com/Quentin-Aime)
 * Aymeline Chemin()
-
-##
