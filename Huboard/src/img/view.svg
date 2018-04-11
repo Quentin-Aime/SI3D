@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="10px" viewBox="0 0 16 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Bitmap</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Gallery" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-178.000000, -446.000000)">
+        <g id="item-row" transform="translate(28.000000, 193.000000)">
+            <g id="item" transform="translate(0.000000, 4.000000)">
+                <g id="description" transform="translate(0.000000, 247.000000)">
+                    <g id="views" transform="translate(150.000000, 0.000000)">
+                        <image id="Bitmap" x="0" y="2" width="16" height="11" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAAXNSR0IArs4c6QAAAQlJREFUKBWt0stLQkEUgPF7y7IoiIKMgl7QMpA2CYKL/n0RpGhRVFBYEUgPwUqSHt83zMDougM/zpzxembmzi2LyZih3MUOFrGAd7zgCQ+YiDKrVhk3UY1zffIrbLSJCmx2CpuFmI15jdzCfKzb5HMMcYceNrCMbXzjGYUN5nASM6m4xzWcO8QBPIKN9mHU4G4GnvkIaWWG4Zxb5BULwgX28AZXTlFnULXBUpqJ+WeqzssyK8LubdDBb/aD23vER5wbk2/hO/D5FGcMhnb5gg/7pl3BF+p2u7CRD7r1BtJRbxhfIPzBbKzjGPk12shvIV2jO72CNxQiP5MTbnH6Q/III3htl/jE/8Ufki41CX/2CvkAAAAASUVORK5CYII="></image>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

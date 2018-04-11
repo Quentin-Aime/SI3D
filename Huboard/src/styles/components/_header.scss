@@ -5,10 +5,11 @@
   &-headerContainer {
     display: flex;
   }
+
   &-navContainer {
     position: absolute;
     display: flex;
-    padding-left: 50px;
+    padding-left: 28px;
   }
   &-logoContainer {
   }
@@ -18,7 +19,6 @@
     margin: 2.5rem 4rem 7rem 0 ;
   }
   &-ul {
-    font-family: Didot;
     display: flex;
   }
   &-navItem {
@@ -38,6 +38,13 @@
   }
   &-navItemLink {
     color: #052464;
+  }
+  &-iconContainer{
+    margin: 4rem 4.3rem;
+  }
+  &-iconImg{
+    margin-left:1rem;
+
   }
   &-sectionContainer {
     flex-wrap: wrap;
@@ -76,6 +83,15 @@
       background-size: cover;
     }
   }
+  &-findButton{
+    margin: 0 0 60px 39rem;
+    position: absolute;
+    background-color: #052464;
+    color: white;
+    width: 205px;
+    height: 46px;
+    bottom: 0;
+  }
   &-rightImg {
     height: 51vh;
   }
@@ -98,19 +114,20 @@
     font-weight: medium;
     line-height: 20px;
   }
-  &-usersSection {
-    &:hover {
-      + .home-customizSection {
-        opacity: 0.5;
-      }
-    }
-  }
-  &-customizSection {
-    &:hover {
-      ~ .home-usersSection {
-        opacity: 0.5;
-      }
-    }
-  }
+  // &-usersSection {
+  //   &:hover {
+  //     + .home-customizSection {
+  //       opacity: 0.5;
+  //     }
+  //   }
+  // }
+  // &-customizSection {
+  //   &:hover {
+  //     ~ .home-usersSection {
+  //       opacity: 0.5;
+  //     }
+  //   }
+  // }
+
 
 }

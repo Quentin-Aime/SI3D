@@ -12,4 +12,4 @@ Disposition d'un configurateur de longboard en 3D.
 * Réda Ouaich(https://github.com/Reda-OUAICH)
 * Nicolas Stenger(https://github.com/NicolasStn)
 * Quentin Aimé(https://github.com/Quentin-Aime)
-* Aymeline Chemin()
+* Aymeline Chemin(https://github.com/AymelineC)
