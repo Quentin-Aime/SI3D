@@ -1,12 +1,11 @@
-.home {
+
+.home{
   font-family: Barlow regular;
-  &-headerContainer {
+  &-headerContainer{
     display: flex;
   }
-  &-headerContainer {
-
-  }
-  &-navContainer {
+  &-headerContainer{}
+  &-navContainer{
     position: absolute;
     display: flex;
     padding-left: 50px;
