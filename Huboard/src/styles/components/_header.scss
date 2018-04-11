@@ -32,6 +32,11 @@
     border-bottom: 2px solid #052464;
     transition: 0.3s ease;
   }
+  &-navItemActive {
+    margin: 4.2rem 1.5rem;
+    font-size: 14px;
+    border-bottom: solid #052464 2px;
+  }
   &-navItemLink {
     color: #052464;
   }

@@ -1,1 +1,82 @@
-
+.customization {
+  height: 100%;
+  background-size: cover;
+  overflow-x: hidden;
+  &-panel {
+    position: fixed;
+    left: 120%;
+    width: 321px;
+    height: 100%;
+    float: right;
+    opacity: 80%;
+    background-color: rgba(249,211,91, .8);
+  }
+  &-panelImg {
+    display: block;
+    float: right;
+  }
+  &-panelImgReverse {
+    margin-left: -64px;
+  }
+  &-share {
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+  &-alreadySaved {
+    font-size: 14px;
+    color: #052464;
+    font-family: futura;
+    margin-top: 24px;
+    margin-left: 28px;
+  }
+  &-parts {
+    margin-left: 28px;
+    margin-top: 154px;
+    font-size: 14px;
+    color: #052464;
+    font-family: futura;
+  }
+  &-share {
+    height: 34px;
+    width: 265px;
+    font-size: 14px;
+    color: #052464;
+    font-family: futura;
+    text-align: center;
+    background-color: white;
+    margin-top: 452px;
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+  &-share:focus {
+    outline: none;
+  }
+  &-save {
+    height: 34px;
+    width: 126px;
+    background-color: transparent;
+    margin-left: 29px;
+    margin-top: 14px;
+    margin-right: 8px;
+    width: 126px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: futura;
+  }
+  &-save:focus {
+    outline: none;
+  }
+  &-buy {
+    width: 126px;
+    height: 34px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    color: #052464;
+    font-family: futura;
+  }
+  &-buy:focus {
+    outline: none;
+  }
+}
