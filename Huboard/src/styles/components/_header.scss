@@ -1,11 +1,13 @@
 
-.home{
+.home {
   font-family: Barlow regular;
-  &-headerContainer{
+  &-headerContainer {
     display: flex;
   }
-  &-headerContainer{}
-  &-navContainer{
+  &-headerContainer {
+
+  }
+  &-navContainer {
     position: absolute;
     display: flex;
     padding-left: 50px;
@@ -30,7 +32,7 @@
   &-navItemActive {
     margin: 4.2rem 1.5rem;
     font-size: 14px;
-    border-bottom: solid #052464 2px;
+    border-bottom: solid #052464 1px;
   }
   &-navItemLink {
     color: #052464;

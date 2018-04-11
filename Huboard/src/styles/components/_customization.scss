@@ -79,4 +79,25 @@
   &-buy:focus {
     outline: none;
   }
+  &-accountImg {
+    position: absolute;
+    display: inline-flex;
+  }
+  &-link {
+    position: absolute;
+    display: inline-flex;
+  }
+  &-account {
+    position: absolute;
+    margin-left: 242px;
+    margin-top: 24px;
+  }
+  &-cart {
+    position: absolute;
+    margin-left: 277px;
+    margin-top: 24px;
+  }
+  &-link {
+    text-decoration: none;
+  }
 }
