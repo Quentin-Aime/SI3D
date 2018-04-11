@@ -1,13 +1,12 @@
-
-.home{
-  font-family: 'Barlow', sans-serif;
+.home {
+/*   font-family: 'Barlow', sans-serif;
+ */  font-family: Barlow regular;
   color: white;
-  &-headerContainer{
+  &-headerContainer {
     display: flex;
   }
-  &-headerContainer{}
-  &-navContainer{
-    font-family: 'Barlow';
+
+  &-navContainer {
     position: absolute;
     display: flex;
     padding-left: 28px;
@@ -31,6 +30,11 @@
   &-navItem:hover{
     border-bottom: 2px solid #052464;
     transition: 0.3s ease;
+  }
+  &-navItemActive {
+    margin: 4.2rem 1.5rem;
+    font-size: 14px;
+    border-bottom: solid #052464 1px;
   }
   &-navItemLink {
     color: #052464;
