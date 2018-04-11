@@ -28,6 +28,11 @@
     margin: 4.2rem 1.5rem;
     font-size: 14px;
   }
+  &-navItemActive {
+    margin: 4.2rem 1.5rem;
+    font-size: 14px;
+    border-bottom: solid #052464 2px;
+  }
   &-navItemLink {
     color: #052464;
   }
