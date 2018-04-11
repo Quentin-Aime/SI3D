@@ -3,7 +3,7 @@ import './styles/styles.scss';
 
 var panelImg = document.querySelector('.customization-panelImg');
 var panel = document.querySelector('.customization-panel');
-var panelImgReverse = document.querySelector('.customization-panelImgReverse')
+var panelImgReverse = document.querySelector('.customization-panelImgReverse');
 
 panelImg.addEventListener('click', function() {
   panel.style.left = "78%";
@@ -16,4 +16,4 @@ panelImg.addEventListener('click', function() {
 panelImgReverse.addEventListener('click', function() {
   panel.style.left = "120%";
   panelImg.style.display = 'block';
-})
+});
