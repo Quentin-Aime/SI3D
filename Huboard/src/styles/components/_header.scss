@@ -7,9 +7,10 @@
   }
   &-headerContainer{}
   &-navContainer{
+    font-family: 'Barlow';
     position: absolute;
     display: flex;
-    padding-left: 50px;
+    padding-left: 28px;
   }
   &-logoContainer {
   }
@@ -19,7 +20,6 @@
     margin: 2.5rem 4rem 7rem 0 ;
   }
   &-ul {
-    font-family: Didot;
     display: flex;
   }
   &-navItem {
@@ -34,6 +34,13 @@
   }
   &-navItemLink {
     color: #052464;
+  }
+  &-iconContainer{
+    margin: 4rem 4.3rem;
+  }
+  &-iconImg{
+    margin-left:1rem;
+
   }
   &-sectionContainer {
     flex-wrap: wrap;
@@ -94,19 +101,20 @@
     font-weight: medium;
     line-height: 20px;
   }
-  &-usersSection {
-    &:hover {
-      + .home-customizSection {
-        opacity: 0.5;
-      }
-    }
-  }
-  &-customizSection {
-    &:hover {
-      ~ .home-usersSection {
-        opacity: 0.5;
-      }
-    }
-  }
+  // &-usersSection {
+  //   &:hover {
+  //     + .home-customizSection {
+  //       opacity: 0.5;
+  //     }
+  //   }
+  // }
+  // &-customizSection {
+  //   &:hover {
+  //     ~ .home-usersSection {
+  //       opacity: 0.5;
+  //     }
+  //   }
+  // }
+
 
 }

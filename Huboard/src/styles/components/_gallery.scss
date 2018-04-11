@@ -1,0 +1,94 @@
+.iconShopConnexion{
+  top:0;
+  right: 0;
+  margin: 4rem 50px;
+  display: flex;
+  &-iconImg{
+    margin-left: 20px;
+  }
+}
+
+.gallery{
+  font-family: 'Barlow', sans-serif;
+  &-trendingsContainer{
+    display: flex;
+    padding: 175px 0 0 90px;
+  }
+  &-trendingsTitle{
+    margin-right: 28px;
+    margin-bottom: 50px;
+    color: #F76C5E;
+  }
+  &-searchbar{
+    width: 205px;
+    height: 22px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid #AEAEAE;
+    margin-left: 60%;
+  }
+  // Gallery Content
+  &-contentContainer{}
+  &-itemContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  &-imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 30px 14px 0;
+  }
+  &-rectangleImg {
+    position: relative;
+    width: 240px;
+    height: 200px;
+  }
+  &-contentImg{
+    position: absolute;
+    z-index: 1;
+  }
+  &-descriptionContainer{
+    display: flex;
+    margin: 11px;
+    flex-direction: column;
+  }
+  &-auteur{
+    font-weight: medium;
+    font-size: 13px;
+    color: #052464;
+    margin-right: 77px;
+  }
+  &-views{
+    font-size: 13px;
+    color: #AEAEAE;
+    margin-right: 10px;
+  }
+  &-likes{
+    font-size: 13px;
+    color: #AEAEAE;
+    margin-right: 5px;
+  }
+  &-viewsLogo{
+    margin-right: 5px;
+  }
+  &-likesLogo{
+    margin-right: 5px;
+  }
+  &-textContainer{
+    display: flex;
+  }
+  &-tagsContainer{
+    display: flex;
+    justify-content: flex-end;
+  }
+  &-tagsItem{
+    margin: 10px 0;
+    color: #AEAEAE;
+    font-size: 11px;
+    font-weight: italic;
+  }
+
+}
