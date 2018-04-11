@@ -79,6 +79,15 @@
       background-size: cover;
     }
   }
+  &-findButton{
+    margin: 0 0 60px 39rem;
+    position: absolute;
+    background-color: #052464;
+    color: white;
+    width: 205px;
+    height: 46px;
+    bottom: 0;
+  }
   &-rightImg {
     height: 51vh;
   }
