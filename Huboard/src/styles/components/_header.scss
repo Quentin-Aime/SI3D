@@ -21,12 +21,12 @@
   &-ul {
     font-family: Didot;
     display: flex;
-    color: #052464;
   }
   &-navItem {
     margin: 4.2rem 1.5rem;
     font-size: 14px;
     font-weight: medium;
+    color: #052464;
   }
   &-navItem:hover{
     border-bottom: 2px solid #052464;
@@ -35,13 +35,6 @@
   &-navItemLink {
     color: #052464;
   }
-  &-navItemLink:hover {
-    transition: all ease auto 0.3s;
-    transition-delay: all ease auto 0.3s;
-    transition-duration: 0.3s;
-    color: #80D9D5;
-  }
-
   &-sectionContainer {
     flex-wrap: wrap;
     width: 100%;
@@ -101,7 +94,19 @@
     font-weight: medium;
     line-height: 20px;
   }
-}
-a{
-  color: #052464;
+  &-usersSection {
+    &:hover {
+      + .home-customizSection {
+        opacity: 0.5;
+      }
+    }
+  }
+  &-customizSection {
+    &:hover {
+      ~ .home-usersSection {
+        opacity: 0.5;
+      }
+    }
+  }
+
 }
