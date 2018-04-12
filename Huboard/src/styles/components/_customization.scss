@@ -1,4 +1,5 @@
 .customization {
+  font-family: 'Barlow', sans-serif;
   height: 100%;
   background-size: cover;
   overflow-x: hidden;
@@ -25,6 +26,7 @@
   &-alreadySaved {
     font-size: 28px;
     color: #052464;
+    margin-top: 24px;
     font-family: futura;
     margin-left: 28px;
   }
@@ -177,7 +179,6 @@
     margin-top: 100px;
     font-size: 28px;
     color: #052464;
-    font-family: futura;
   }
   &-totalPrice {
     font-family: futura;
@@ -196,6 +197,11 @@
     text-align: center;
     font-size: 14px;
     color: #052464;
+    text-align: center;
+    background-color: white;
+    margin-top: 452px;
+    margin-left: 28px;
+    margin-right: 28px;
     font-family: futura;
     border: solid #052464 1px;
   }

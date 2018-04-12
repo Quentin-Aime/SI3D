@@ -40,11 +40,18 @@
     justify-content: center;
     align-items: flex-end;
     margin: 30px 14px 0;
+    height: 240px;
+    width: 240px;
   }
-  &-rectangleImg {
-    position: relative;
+  &-rectangle{
     width: 240px;
     height: 200px;
+    position: relative;
+    transition: 0.5s ease;
+  }
+  &-rectangle:hover{
+    height: 240px;
+    transition: 0.5s ease;
   }
   &-contentImg{
     position: absolute;
@@ -91,4 +98,26 @@
     font-weight: italic;
   }
 
+}
+
+
+.--blue{
+  background-color: cyan;
+  opacity: 0.2;
+}
+.--green{
+  background-color: green;
+  opacity: 0.2;
+}
+.--yellow{
+  background-color: yellow;
+  opacity: 0.2;
+}
+.--pink{
+  background-color: pink;
+  opacity: 0.2;
+}
+.--grey{
+  background-color: grey;
+  opacity: 0.2;
 }
