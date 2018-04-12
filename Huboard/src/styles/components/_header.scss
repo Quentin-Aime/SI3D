@@ -1,6 +1,5 @@
 .home {
-/*   font-family: 'Barlow', sans-serif;
- */  font-family: Barlow regular;
+ font-family: 'Barlow', sans-serif;
   color: white;
   &-headerContainer {
     display: flex;
@@ -105,8 +104,6 @@
   }
   &-descriptionSection {
     position: absolute;
-    font-family: roboto;
-    font-weight: lighter;
     width: 400px;
     color: white;
     font-size: 14px;
@@ -114,20 +111,5 @@
     font-weight: medium;
     line-height: 20px;
   }
-  // &-usersSection {
-  //   &:hover {
-  //     + .home-customizSection {
-  //       opacity: 0.5;
-  //     }
-  //   }
-  // }
-  // &-customizSection {
-  //   &:hover {
-  //     ~ .home-usersSection {
-  //       opacity: 0.5;
-  //     }
-  //   }
-  // }
-
 
 }

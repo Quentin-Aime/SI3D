@@ -1,4 +1,5 @@
 .customization {
+  font-family: 'Barlow', sans-serif;
   height: 100%;
   background-size: cover;
   overflow-x: hidden;
@@ -25,7 +26,6 @@
   &-alreadySaved {
     font-size: 14px;
     color: #052464;
-    font-family: futura;
     margin-top: 24px;
     margin-left: 28px;
   }
@@ -34,14 +34,12 @@
     margin-top: 154px;
     font-size: 14px;
     color: #052464;
-    font-family: futura;
   }
   &-share {
     height: 34px;
     width: 265px;
     font-size: 14px;
     color: #052464;
-    font-family: futura;
     text-align: center;
     background-color: white;
     margin-top: 452px;
@@ -62,7 +60,6 @@
     text-align: center;
     font-size: 14px;
     color: #FFFFFF;
-    font-family: futura;
   }
   &-save:focus {
     outline: none;
@@ -74,7 +71,6 @@
     text-align: center;
     font-size: 14px;
     color: #052464;
-    font-family: futura;
   }
   &-buy:focus {
     outline: none;
