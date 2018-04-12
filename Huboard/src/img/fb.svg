@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Customization/Panel-opened" transform="translate(-1183.000000, -733.000000)" fill="#AEAEAE" fill-rule="nonzero">
+            <g id="share" transform="translate(1137.000000, 731.000000)">
+                <g id="social-links" transform="translate(46.000000, 2.000000)">
+                    <g id="icon/fb">
+                        <path d="M15,0.827008929 L15,14.1696429 C15,14.6283482 14.6283482,14.9966518 14.1729911,14.9966518 L10.3493304,14.9966518 L10.3493304,9.19084821 L12.2979911,9.19084821 L12.5892857,6.92745536 L10.3459821,6.92745536 L10.3459821,5.48102679 C10.3459821,4.82477679 10.5267857,4.37946429 11.4676339,4.37946429 L12.6662946,4.37946429 L12.6662946,2.35379464 C12.4587054,2.32700893 11.7488839,2.26339286 10.9185268,2.26339286 C9.19084821,2.26339286 8.00558036,3.31808036 8.00558036,5.25669643 L8.00558036,6.92745536 L6.05022321,6.92745536 L6.05022321,9.19084821 L8.00558036,9.19084821 L8.00558036,15 L0.827008929,15 C0.371651786,15 0,14.6283482 0,14.1729911 L0,0.827008929 C0,0.371651786 0.371651786,0 0.827008929,0 L14.1696429,0 C14.6283482,0 15,0.371651786 15,0.827008929 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
