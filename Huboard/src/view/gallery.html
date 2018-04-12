@@ -11,333 +11,351 @@
 
 <body>
   <section class="gallery">
-    <div class="home-navContainer">
-      <div class="home-logoContainer"><a href="../index.html"><img src="../img/logosvg.svg" alt="Logo" class="home-logoImg"></div></a>
-        <nav class="home-nav">
-          <ul class="home-ul">
-            <li class="home-navItem"><a href="../index.html" class="home-navItemLink">Home</a></li>
-            <li class="home-navItem"><a href="#" class="home-navItemLink">About</a></li>
-            <li class="home-navItem"><a href="#" class="home-navItemLink">Gallery</a></li>
-            <li class="home-navItem"><a href="customization.html" class="home-navItemLink">Customize</a></li>
-            <li class="home-navItem"><a href="#" class="home-navItemLink">Help</a></li>
+    <div class="gallery-navbarContainer">
+      <div class="leftContainer-navbar">
+        <nav class="leftContainer-navContainer">
+          <div class="leftContainer-logoContainer">
+            <img src="../img/logosvg.svg" alt="" class="leftContainer-logoImg">
+          </div>
+          <ul class="leftContainer-navItems">
+            <li class="leftContainer-navItem">
+              <a href="../index.html" class="leftContainer-navItemLink">Home</a>
+            </li>
+            <li class="leftContainer-navItem">
+              <a href="#" class="leftContainer-navItemLink">About</a>
+            </li>
+            <li class="leftContainer-navItem">
+              <a href="../view/gallery.html" class="leftContainer-navItemLink">Gallery</a>
+            </li>
+            <li class="leftContainer-navItem">
+              <a href="../view/customization.html" class="leftContainer-navItemLink">Customize</a>
+            </li>
+            <li class="leftContainer-navItem">
+              <a href="#" class="leftContainer-navItemLink">Help</a>
+            </li>
           </ul>
         </nav>
-        <div class="iconShopConnexion">
-          <a href="#"><img src="../img/account.svg" alt="Compte" class="iconShopConnexion-iconImg"></a>
-          <a href="#"><img src="../img/cart.svg" alt="Panier" class="iconShopConnexion-iconImg"></a>
+        <div class="leftContainer-icons">
+          <button class="leftContainer-btn">
+            <img src="../img/account.svg" alt="Account" class="leftContainer-icon">
+          </button>
+          <button class="leftContainer-btn">
+            <img src="../img/cart.svg" alt="Cart" class="leftContainer-icon">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-trendingsContainer">
+      <p class="gallery-trendingsTitle">Recent</p>
+      <p class="gallery-trendingsTitle">Popular</p>
+      <input class="gallery-searchbar" type="text" placeholder="#Tags" name="Search" />
+    </div>
+
+    <!-- Gallery CONTENT -->
+    <div class="gallery-contentContainer row col-md-12 center-xs">
+      <div class="gallery-itemContainer">
+        <a href="../view/product.html">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --blue"></div>
+            <img src="../img/creation.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Joel Peterson</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">504</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">203</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --green"></div>
+            <img src="../img/skate2.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">John Lenon</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">9200</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">690</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --yellow"></div>
+            <img src="../img/skate3.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Leeroy Jenkins</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">10k</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">40k</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --grey"></div>
+            <img src="../img/skate4.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Thrall</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">50 M</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">30 M</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --pink"></div>
+            <img src="../img/skate5.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Joel Peterson</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">504</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">203</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --blue"></div>
+            <img src="../img/creation.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Joel Peterson</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">504</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">203</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --green"></div>
+            <img src="../img/skate2.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">John Lenon</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">9200</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">690</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --yellow"></div>
+            <img src="../img/skate3.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Leeroy Jenkins</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">10k</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">40k</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --grey"></div>
+            <img src="../img/skate4.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Thrall</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">50 M</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">30 M</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --pink"></div>
+            <img src="../img/skate5.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Joel Peterson</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">504</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">203</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --blue"></div>
+            <img src="../img/creation.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Joel Peterson</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">504</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">203</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --green"></div>
+            <img src="../img/skate2.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">John Lenon</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">9200</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">690</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --yellow"></div>
+            <img src="../img/skate3.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Leeroy Jenkins</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">10k</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">40k</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --grey"></div>
+            <img src="../img/skate4.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Thrall</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">50 M</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">30 M</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-itemContainer">
+        <a href="#">
+          <div class="gallery-imgContainer">
+            <div class="gallery-rectangle --pink"></div>
+            <img src="../img/skate5.svg" alt="" class="gallery-contentImg">
+          </div>
+        </a>
+        <div class="gallery-descriptionContainer">
+          <div class="gallery-textContainer">
+            <p class="gallery-auteur">Joel Peterson</p>
+            <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
+            <p class="gallery-views">504</p>
+            <img src="../img/like.svg" alt="" class="gallery-likesLogo">
+            <p class="gallery-likes">203</p>
+          </div>
+          <div class="gallery-tagsContainer">
+            <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
+          </div>
         </div>
       </div>
 
-      <div class="gallery-trendingsContainer">
-        <h2 class="gallery-trendingsTitle">Recent</h2>
-        <h2 class="gallery-trendingsTitle">Popular</h2>
-        <input class="gallery-searchbar" type="text" placeholder="#Tags" name="Search" />
-      </div>
-
-      <!-- Gallery CONTENT -->
-      <div class="gallery-contentContainer row col-md-12 center-xs">
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --blue"></div>
-              <img src="../img/creation.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Joel Peterson</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">504</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">203</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --green"></div>
-              <img src="../img/skate2.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">John Lenon</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">9200</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">690</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --yellow"></div>
-              <img src="../img/skate3.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Leeroy Jenkins</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">10k</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">40k</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --grey"></div>
-              <img src="../img/skate4.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Thrall</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">50 M</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">30 M</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --pink"></div>
-              <img src="../img/skate5.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Joel Peterson</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">504</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">203</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --blue"></div>
-              <img src="../img/creation.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Joel Peterson</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">504</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">203</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --green"></div>
-              <img src="../img/skate2.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">John Lenon</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">9200</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">690</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --yellow"></div>
-              <img src="../img/skate3.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Leeroy Jenkins</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">10k</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">40k</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --grey"></div>
-              <img src="../img/skate4.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Thrall</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">50 M</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">30 M</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --pink"></div>
-              <img src="../img/skate5.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Joel Peterson</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">504</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">203</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --blue"></div>
-              <img src="../img/creation.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Joel Peterson</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">504</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">203</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --green"></div>
-              <img src="../img/skate2.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">John Lenon</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">9200</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">690</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --yellow"></div>
-              <img src="../img/skate3.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Leeroy Jenkins</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">10k</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">40k</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --grey"></div>
-              <img src="../img/skate4.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Thrall</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">50 M</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">30 M</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-        <div class="gallery-itemContainer">
-          <a href="#">
-            <div class="gallery-imgContainer">
-              <div class="gallery-rectangle --pink"></div>
-              <img src="../img/skate5.svg" alt="" class="gallery-contentImg">
-            </div>
-          </a>
-          <div class="gallery-descriptionContainer">
-            <div class="gallery-textContainer">
-              <p class="gallery-auteur">Joel Peterson</p>
-              <img src="../img/view.svg" alt="" class="gallery-viewsLogo">
-              <p class="gallery-views">504</p>
-              <img src="../img/like.svg" alt="" class="gallery-likesLogo">
-              <p class="gallery-likes">203</p>
-            </div>
-            <div class="gallery-tagsContainer">
-              <p class="gallery-tagsItem">#Blue #Wheel #Custom</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
+    </div>
   </section>
   <script src="../index.js"></script>
 </body>

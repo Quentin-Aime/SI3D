@@ -10,56 +10,77 @@
 </head>
 
 <body>
-  <div class="home">
-    <!-- <div class="container">
-      <div class="row"> -->
-    <div class="home-headerContainer">
-      <div class="home-navContainer">
-        <div class="home-logoContainer">
-          <a href="index.html">
-            <img src="img/logosvg.svg" alt="Logo" class="home-logoImg">
-          </a>
-        </div>
-        <nav class="home-nav">
-          <ul class="home-ul">
-            <li class="home-navItem"><a href="#" class="home-navItemLink">Home</a></li>
-            <li class="home-navItem"><a href="#" class="home-navItemLink">About</a></li>
-            <li class="home-navItem"><a href="view/gallery.html" class="home-navItemLink">Gallery</a></li>
-            <li class="home-navItem"><a href="view/customization.html" class="home-navItemLink">Customize</a></li>
-            <li class="home-navItem"><a href="#" class="home-navItemLink">Help</a></li>
+  
+  <div class="bigContainer">
+    <section class="leftContainer">
+      <!--Modele 3D ICI-->
+      <!-- <div class="leftContainer-3DContainer">
+        <iframe class="leftContainer-3DModel" src="https://sketchfab.com/models/551ada2c83754f8083c8bb39bb9cf948/embed?autospin=0.2&amp;autostart=1&amp;camera=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+      </div> -->
+      <!--Modele 3D ICI-->
+      <div class="leftContainer-navbar">
+        <nav class="leftContainer-navContainer">
+          <div class="leftContainer-logoContainer">
+            <img src="img/logosvg.svg" alt="" class="leftContainer-logoImg">
+          </div>
+          <ul class="leftContainer-navItems">
+            <li class="leftContainer-navItem"><a href="#" class="leftContainer-navItemLink">Home</a></li>
+            <li class="leftContainer-navItem"><a href="#" class="leftContainer-navItemLink">About</a></li>
+            <li class="leftContainer-navItem"><a href="view/gallery.html" class="leftContainer-navItemLink">Gallery</a></li>
+            <li class="leftContainer-navItem"><a href="view/customization.html" class="leftContainer-navItemLink">Customize</a></li>
+            <li class="leftContainer-navItem"><a href="#" class="leftContainer-navItemLink">Help</a></li>
           </ul>
         </nav>
-        <div class="home-iconContainer">
-          <a href="#"><img src="img/account.svg" alt="Compte" class="home-iconImg"></a>
-          <a href="#"><img src="img/cart.svg" alt="Panier" class="home-iconImg"></a>
+        <div class="leftContainer-icons">
+          <button class="leftContainer-btn">
+              <img src="img/account.svg" alt="Account" class="leftContainer-icon">
+          </button>
+          <button class="leftContainer-btn">
+              <img src="img/cart.svg" alt="Cart" class="leftContainer-icon">
+          </button>
         </div>
       </div>
-      <div class="home-sectionContainer">
-        <div class="home-centerSection">
-          <h1 class="home-titlePrinciple">Create the longboard that looks like you.</h1>
-          <p class="home-descriptionPrinciple">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#"><button class="home-findButton">Find out more</button></a>
-          <img class="home-centerImg" src="img/homeImgCenter.png" alt="Home" />
+      
+      <div class="leftContainer-txt">
+        <h1 class="leftContainer-title">
+          Create the longboard that looks like you.
+        </h1>
+        <p class="leftContainer-description">
+          Hubwheel lets you design, share and buy custom longboards made by you or the community.
+        </p>
+      </div>
+    
+      <a href="#" class="leftContainer-moreLink">
+        Find out more
+      </a>
+    
+    </section>
+    <section class="rightContainer">
+      <a class="topRightLink" href="view/gallery.html">
+        <div class="topRightContainer">
+          <h2 class="topRightContainer-title">
+            Browse the gallery
+          </h2>
+          <p class="topRightContainer-description">
+              Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi.
+          </p>
+          <img src="img/topRightImg.jpeg" class="topRightContainer-img"></img>
         </div>
-        <div class="home-rightSection">
-          <div class="home-usersSection">
-            <p class="home-titleSection">Browse the gallery</p>
-            <p class="home-descriptionSection">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <a href="view/gallery.html"><img class="home-rightImg" src="img/comu.svg" alt="Comunity"/></a>
-          </div>
-          <div class="home-customizSection">
-            <p class="home-titleSection">Design your own</p>
-            <p class="home-descriptionSection">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <a href="view/customization.html"><img class="home-rightImg" src="img/customiz.svg" alt="Customize"/></a>
+      </a>
+      <a class="bottomRightLink" href="view/customization.html">
+        <div class="bottomRightContainer">
+          <h2 class="bottomRightContainer-title">
+            Design your own
+          </h2>
+          <p class="bottomRightContainer-description">
+            Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. 
+          </p>
+          <img src="img/bottomRightImg.jpeg" class="bottomRightContainer-img"></img>
+        </div>
+      </a>
+    </section>
+  </div>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
   <script src="index.js"></script>
 </body>
 
