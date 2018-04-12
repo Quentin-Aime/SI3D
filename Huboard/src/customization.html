@@ -12,7 +12,9 @@
 <body>
   <section class="customization">
   <div class="home-navContainer">
-  <div class="home-logoContainer"><a href="index.html"><img src="img/logosvg.svg" alt="Logo" class="home-logoImg"></div></a>
+    <div class="home-logoContainer">
+      <a href="index.html"><img src="img/logosvg.svg" alt="Logo" class="home-logoImg"></a>
+    </div>
     <nav class="home-nav">
       <ul class="home-ul">
         <li class="home-navItem"><a href="index.html" class="home-navItemLink">Home</a></li>
@@ -23,12 +25,34 @@
       </ul>
     </nav>
   </div>
+
   <img class="customization-panelImg" src="img/open-panel.svg" alt="Open Panel"/>
     <div class="customization-panel">
       <img class="customization-panelImgReverse" src="img/open-panelReverse.svg" alt="Open Panel Reverse"/>
         <div class="customization-accountImg">
+          <div class="customization-cartPanelParent">
+
+
           <a href="#" class="customization-link"><img class="customization-account" src="img/account.svg" alt="Account"/></a>
           <a href="#" class="customization-link"><img class="customization-cart" src="img/cart.svg" alt="Cart"/></a>
+
+           <div class="customization-cartPanel">
+             <div class="customization-cartPanelAlign">
+               <p class="customization-yourCart">Your cart</p>
+               <img class="customization-yourCartClose" src="img/croix.svg" alt="Close"/>
+             </div>
+             <p class="customization-nothing">Nothing to see here</p>
+             <div class="customization-yourCartItem">
+               <a href="#" class="customization-panelLink"><img src="img/item-img2.svg" alt="Cart Item 1" class="customization-cartPanelItemOne"/></a>
+               <p class="customization-yourCartPrice">$100</p>
+               <img class="customization-yourCartDeleteItem" src="img/garbage.svg" alt="Delete Item"/>
+             </div>
+             <div class="customization-yourCartTotal">
+               <p class="customization-yourCartFinalTotal">Total</p>
+               <p class="customization-yourCartFinalPrice">$100</p>
+             </div>
+           </div>
+          </div>
         </div>
       <p class="customization-alreadySaved">Your saved designs</p>
       <div class="customization-panelItemImg">
@@ -76,6 +100,8 @@
     </div>
 </section>
 <script src="index.js"></script>
+<script src="panel.js"></script>
+
 </body>
 
 </html>

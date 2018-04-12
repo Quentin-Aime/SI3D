@@ -41,6 +41,9 @@
     position: absolute;
     display: inline-flex;
   }
+  &-cartPanelParent {
+  position: relative;
+  }
   &-link {
     position: absolute;
     display: inline-flex;
@@ -176,13 +179,13 @@
   }
   &-total {
     margin-left: 28px;
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 28px;
     color: #052464;
   }
   &-totalPrice {
     font-family: futura;
-    margin-top: 107px;
+    margin-top: 47px;
     color: #F9D35B;
     font-size: 18px;
     margin-left: 148px;
@@ -334,4 +337,71 @@
 .--white{
   background:rgba(255,255,255, .8);
 
+  &-cartPanel {
+    display: none;
+    margin-left: 130px;
+    margin-top: 50px;
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    background-color: white;
+    opacity: 90%;
+    border: 1px solid black;
+  }
+  &-yourCart {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 16px;
+    color: #052464;
+  }
+  &-yourCartClose {
+    margin-top: 14px;
+    margin-left: 36px;
+    width: 10px;
+    height: 10px;
+  }
+  &-cartPanelAlign {
+    display: inline-flex;
+  }
+  &-yourCartPrice {
+    margin-top: 24px;
+    color: #F9D35B;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  &-cartPanelItemOne {
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 40px;
+    height: 40px;
+  }
+  &-yourCartItem {
+    display: inline-flex;
+  }
+  &-yourCartFinalPrice {
+    color: #F9D35B;
+    font-size: 16px;
+    margin-left: 80px;
+  }
+  &-yourCartTotal {
+    display: inline-flex;
+    margin-left: 14px;
+    margin-top: 16px;
+  }
+  &-yourCartFinalTotal {
+    color: #052464;
+  }
+  &-yourCartDeleteItem {
+    margin-top: 24px;
+    margin-left: 50px;
+    width: 12px;
+    height: 12px;
+  }
+  &-nothing {
+    display: none;
+    text-align: center;
+    color: #052464;
+    margin-top: 16px;
+    font-size: 16px;
+  }
 }
