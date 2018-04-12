@@ -1,6 +1,7 @@
 .home {
  font-family: 'Barlow', sans-serif;
   color: white;
+  overflow: hidden;
   &-headerContainer {
     display: flex;
   }
@@ -15,7 +16,7 @@
   &-logoImg {
     width:200px;
     height:40px;
-    margin: 2.5rem 4rem 7rem 0 ;
+    margin: 2.5rem 4rem 0 0 ;
   }
   &-ul {
     display: flex;
@@ -66,7 +67,7 @@
     position: absolute;
     font-size: 16px;
     margin: 290px 0 0 90px;
-    width: 410px;
+    width: 500px;
     font-weight: medium;
     line-height: 19px;
   }
