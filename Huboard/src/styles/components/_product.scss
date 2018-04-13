@@ -1,10 +1,13 @@
 .product{
-  font-family: 'Burlow', sans-serif;
+  font-family: $font-ss;
+  &-navbarContainer {
+    padding: 28px;
+  }
   &-backGalleryContainer{
     display: flex;
     color: #F76C5E;
     font-size: 14px;
-    padding: 150px 0 0 90px ;
+    padding: 75px 0 0 80px;  
   }
   &-backText{
     color: #F76C5E;
@@ -22,7 +25,7 @@
     align-items: flex-end;
     width: 500px;
     height: 400px;
-    margin: 70px 160px;
+    margin: 70px 160px 28px 160px;
   }
   &-rectangle{
     width: 500px;
@@ -34,11 +37,12 @@
     z-index: 1;
   }
   &-btn3D{
+    cursor: pointer;
     margin-left: 23.5rem;
     width: 85px;
     height: 35px;
     color: #FFF;
-    background-color: #F9D35B;
+    background-color: $yellow;
     border: none;
   }
   &-descriptionContainer{
@@ -85,26 +89,43 @@
     margin: 11px 0;
   }
   &-buyBtn{
+    cursor: pointer;
     width: 265px;
     height: 35px;
     color: white;
-    background-color:#F9D35B;
+    background-color: $yellow;
     border: none;
+    transition: ease 0.2s;
+    &:hover {
+      background-color: rgb(235, 197, 74);
+    }
   }
   &-editBtn{
+    cursor: pointer;
     width: 127px;
     height: 34px;
-    color: #052464;
+    color: $darkBlue;
     background-color: #fff;
-    border: 2px solid #052464;
+    border: 2px solid $darkBlue;
     margin-right: 5px;
+    transition: ease-out 0.4s;
+    &:hover {
+      box-shadow: inset 200px 0 0 0 $darkBlue;
+      color: #fff;
+    }
   }
   &-addBtn{
+    cursor: pointer;
     width: 127px;
     height: 34px;
-    color: #052464;
+    color: $darkBlue;
     background-color: #fff;
-    border: 2px solid #052464;
+    border: 2px solid $darkBlue;
     margin-left: 5px;
+    transition: ease-out 0.4s;
+    &:hover {
+      box-shadow: inset 200px 0 0 0 $darkBlue;
+      color: #fff;
+    }
   }
 }

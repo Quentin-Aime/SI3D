@@ -1,23 +1,30 @@
-.iconShopConnexion{
-  top:0;
-  right: 0;
-  margin: 4rem 50px;
-  display: flex;
-  &-iconImg{
-    margin-left: 20px;
-  }
-}
-
 .gallery{
-  font-family: 'Barlow', sans-serif;
+  font-family: $font-ss;
+  &-navbarContainer {
+    padding: 28px;
+  }
   &-trendingsContainer{
     display: flex;
-    padding: 175px 0 0 90px;
+    padding: 75px 0 0 80px;
   }
   &-trendingsTitle{
+    cursor: pointer;
     margin-right: 28px;
     margin-bottom: 50px;
-    color: #F76C5E;
+    color: $red;
+    position: relative;
+    &:hover {
+      &::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 2px;
+        left: 25%;
+        bottom: -6;
+        background-color: $red;
+        border-radius: 100px;
+      }
+    }
   }
   &-searchbar{
     width: 205px;
@@ -97,7 +104,6 @@
     font-size: 11px;
     font-weight: italic;
   }
-
 }
 
 
